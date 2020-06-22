@@ -1,4 +1,4 @@
-﻿#ifndef AUTOGRID_H
+#ifndef AUTOGRID_H
 #define AUTOGRID_H
 
 #include <QWidget>
@@ -10,12 +10,12 @@ class AutoGrid : public QWidget
 public:
     explicit AutoGrid(QWidget *parent = 0);
 
-    virtual void initial();
-    virtual void drawBK();
-    virtual void resizeEvent(QResizeEvent* event);
-    virtual void calAtomGridHeight();
-    virtual void calAtomGridWidth();
-    virtual void paintEvent(QPaintEvent* event);
+    void virtual initial();
+    void virtual drawBK();
+    void virtual resizeEvent(QResizeEvent* event);
+    void virtual calAtomGridHeight();
+    void virtual calAtomGridWidth();
+    void virtual paintEvent(QPaintEvent* event);    
     void drawGrid();
     void drawHorLine();
     void drawVerLine();

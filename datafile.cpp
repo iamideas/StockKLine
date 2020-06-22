@@ -8,8 +8,8 @@ DataFile::DataFile()
 
 DataFile::~DataFile()
 {
-     delete pfile;
-     pfile = nullptr;
+    delete pfile;
+    pfile = nullptr;
 }
 
 bool DataFile::readData(QString filestr)
@@ -85,7 +85,7 @@ bool DataFile::readData(QString filestr)
 void DataFile::calAverageLine()
 {
 
-    // ³õÊ¼»¯¸÷¾ùÏßµÄÖµ
+    // åˆå§‹åŒ–å„å‡çº¿çš„å€¼
     for(int i=0;i<4;i++)
         kline[i].averageLine5 = 0;
 

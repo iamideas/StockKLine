@@ -1,4 +1,4 @@
-﻿#include "mainwindow.h"
+#include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "klinegrid.h"
 #include "kvolumegrid.h"
@@ -11,6 +11,9 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {   
     ui->setupUi(this);
+
+
+
 
     pgrid = new kVolumeGrid(this);
     pgrid->setObjectName(tr("kline"));
@@ -36,6 +39,10 @@ MainWindow::MainWindow(QWidget *parent) :
 
 
     resize(1200,800);
+
+
+
+
 }
 
 MainWindow::~MainWindow()

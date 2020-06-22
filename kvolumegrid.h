@@ -22,7 +22,7 @@ public:
 private:
     DataFile mDataFile;
 
-    //»­³É½»Á¿ÏßµÄÆğÊ¼ÈÕÆÚºÍÖÕÖ¹ÈÕÆÚ
+    //ç”»æˆäº¤é‡çº¿çš„èµ·å§‹æ—¥æœŸå’Œç»ˆæ­¢æ—¥æœŸ
     int beginDay;
     int endDay;
     int totalDay;
@@ -30,15 +30,15 @@ private:
 
 
 
-    //µ±Ç°Òª»­µÄ³É½»Á¿ÏßÖĞµÄ×î´ó³É½»Á¿
+    //å½“å‰è¦ç”»çš„æˆäº¤é‡çº¿ä¸­çš„æœ€å¤§æˆäº¤é‡
     double maxVolume;
 
 
-    //Êó±êÎ»ÖÃ
+    //é¼ æ ‡ä½ç½®
     QPoint mousePoint;
 
 
-    //Ïß¿í
+    //çº¿å®½
     int lineWidth;
 
 

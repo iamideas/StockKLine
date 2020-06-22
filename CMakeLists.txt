@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(klinr LANGUAGES CXX)
+project(StockKLine LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -28,10 +28,10 @@ set(CMAKE_PREFIX_PATH ${QT_DIR})
 
 find_package(Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
 
-set(TS_FILES klinr_zh_CN.ts)
+set(TS_FILES myI18N_zh_CN.ts)
 
 
-  add_executable(klinr
+  add_executable(StockKLine
     main.cpp
     mainwindow.cpp
     mainwindow.h
@@ -49,9 +49,9 @@ set(TS_FILES klinr_zh_CN.ts)
     ${TS_FILES}
   )
 
-target_link_libraries(klinr PRIVATE Qt5::Widgets)
-set_target_properties(klinr  PROPERTIES LINK_FLAGS "/SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup")
+target_link_libraries(StockKLine PRIVATE Qt5::Widgets)
+set_target_properties(StockKLine PROPERTIES LINK_FLAGS "/SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup")
 qt5_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
 
-add_custom_command(TARGET klinr POST_BUILD 
-    COMMAND ${QT_DIR}/bin/windeployqt  --no-translations --no-system-d3d-compiler --no-opengl --no-svg ${CMAKE_CURRENT_BINARY_DIR}/Debug/klinr${CMAKE_EXECUTABLE_SUFFIX})
+add_custom_command(TARGET StockKLine POST_BUILD 
+    COMMAND ${QT_DIR}/bin/windeployqt  --no-translations --no-system-d3d-compiler --no-opengl --no-svg ${CMAKE_CURRENT_BINARY_DIR}/Debug/StockKLine${CMAKE_EXECUTABLE_SUFFIX})

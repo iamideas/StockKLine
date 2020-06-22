@@ -23,11 +23,12 @@
     <name>MainWindow</name>
     <message>
         <location filename="mainwindow.ui" line="13"/>
+        <location filename="build/x64-Debug/StockKLine_autogen/include_Debug/ui_mainwindow.h" line="55"/>
         <source>MainWindow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="17"/>
+        <location filename="mainwindow.cpp" line="19"/>
         <source>kline</source>
         <translation type="unfinished"></translation>
     </message>
@@ -37,57 +38,75 @@
     <message>
         <location filename="showdetail.cpp" line="41"/>
         <source>time</source>
-        <translation>时间</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="showdetail.cpp" line="50"/>
+        <location filename="showdetail.cpp" line="55"/>
         <source>currentValue</source>
-        <translation>数值</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="showdetail.cpp" line="59"/>
+        <location filename="showdetail.cpp" line="69"/>
         <source>opening</source>
-        <translation>开盘</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="showdetail.cpp" line="68"/>
+        <location filename="showdetail.cpp" line="82"/>
         <source>highestBid</source>
-        <translation>最高</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="showdetail.cpp" line="77"/>
+        <location filename="showdetail.cpp" line="95"/>
         <source>lowestBid</source>
-        <translation>最低</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="showdetail.cpp" line="86"/>
+        <location filename="showdetail.cpp" line="108"/>
         <source>closeingPrice</source>
-        <translation>收盘</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="showdetail.cpp" line="94"/>
+        <location filename="showdetail.cpp" line="121"/>
         <source>amountOfIncrease</source>
-        <translation>涨幅</translation>
-    </message>
-    <message>
-        <location filename="showdetail.cpp" line="102"/>
-        <source>amountOfAmplitude</source>
-        <translation>振幅</translation>
-    </message>
-    <message>
-        <location filename="showdetail.cpp" line="111"/>
-        <source>totalVolume</source>
-        <translation>总手</translation>
-    </message>
-    <message>
-        <location filename="showdetail.cpp" line="122"/>
-        <source>totalAmount</source>
-        <translation>金额</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="showdetail.cpp" line="136"/>
+        <source>amountOfAmplitude</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="showdetail.cpp" line="151"/>
+        <source>totalVolume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="showdetail.cpp" line="170"/>
+        <source>totalAmount</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="showdetail.cpp" line="189"/>
         <source>turnoverRate</source>
-        <translation>换手</translation>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>kVolumeGrid</name>
+    <message>
+        <location filename="kvolumegrid.cpp" line="31"/>
+        <source>dataKLine.txt</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="kvolumegrid.cpp" line="34"/>
+        <source>数据文件读取失败</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="kvolumegrid.cpp" line="34"/>
+        <source>确定</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

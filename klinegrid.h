@@ -35,13 +35,13 @@ public:
     void drawKline();
 
 
-    //¼üÅÌ°´ÏÂºó»­µÄÊ®×ÖÏß
+    //é”®ç›˜æŒ‰ä¸‹åç”»çš„åå­—çº¿
     void drawCross();
     void drawCrossVerLine();
     void drawCrossHorLine();
     void drawTips();
 
-    //¼üÅÌÃ»°´ÏÂ»­µÄÊ®×ÖÏß
+    //é”®ç›˜æ²¡æŒ‰ä¸‹ç”»çš„åå­—çº¿
     void drawCross2();
     void drawMouseMoveCrossVerLine();
     void drawMouseMoveCrossHorLine();
@@ -49,7 +49,7 @@ public:
 
 
 
-    //»­¾ùÏß
+    //ç”»å‡çº¿
     void drawAverageLine(int day);
 
 private:
@@ -57,39 +57,39 @@ private:
     ShowDetail* mShowDrtail;
 
 
-    //»­kÏßµÄÆğÊ¼ÈÕÆÚºÍÖÕÖ¹ÈÕÆÚ
+    //ç”»kçº¿çš„èµ·å§‹æ—¥æœŸå’Œç»ˆæ­¢æ—¥æœŸ
     int beginDay;
     int endDay;
     int totalDay;
     int currentDay;
 
 
-    //µ±Ç°Òª»­µÄkÏßÈÕÆÚÖĞµÄ×î¸ß¼Û£¬×îµÍ¼Û£¬×î´ó³É½»Á¿
+    //å½“å‰è¦ç”»çš„kçº¿æ—¥æœŸä¸­çš„æœ€é«˜ä»·ï¼Œæœ€ä½ä»·ï¼Œæœ€å¤§æˆäº¤é‡
     double highestBid;
     double lowestBid;
     double maxVolume;
 
-    //xÖáºÍyÖáµÄËõ·Å±È
+    //xè½´å’Œyè½´çš„ç¼©æ”¾æ¯”
     double xscale;
     double yscale;
 
-    //ÊÇ·ñÏÔÊ¾Ê®×ÖÏß
+    //æ˜¯å¦æ˜¾ç¤ºåå­—çº¿
     bool bCross = false;
 
 
-    //Êó±êÎ»ÖÃ
+    //é¼ æ ‡ä½ç½®
     QPoint mousePoint;
 
-    //»­±ÊµÄÏß¿í
+    //ç”»ç¬”çš„çº¿å®½
     int lineWidth;
 
 
-    //¼üÅÌÊÇ·ñ°´ÏÂ
+    //é”®ç›˜æ˜¯å¦æŒ‰ä¸‹
     bool isKeyDown = false;
 
 
 
-    //ÊÇ·ñ»­¾ùÏß
+    //æ˜¯å¦ç”»å‡çº¿
     bool isDrawAverageLine = true;
 
 signals:
