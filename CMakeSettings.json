@@ -1,0 +1,17 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Visual Studio 15 2017 Win64",
+      "configurationType": "Debug",
+      "inheritEnvironments": [
+        "msvc_x64_x64"
+      ],
+      "buildRoot": "${workspaceRoot}\\build\\${name}",
+      "installRoot": "${workspaceRoot}\\install\\${name}",
+      "cmakeCommandArgs": "-DQT_DIR=D:\\Qt\\Qt5.12.9\\5.12.9\\msvc2017_64",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": ""
+    }
+  ]
+}

@@ -10,12 +10,12 @@ class AutoGrid : public QWidget
 public:
     explicit AutoGrid(QWidget *parent = 0);
 
-    void virtual initial();
-    void virtual drawBK();
-    void virtual resizeEvent(QResizeEvent* event);
-    void virtual calAtomGridHeight();
-    void virtual calAtomGridWidth();
-    void virtual paintEvent(QPaintEvent* event);    
+    virtual void initial();
+    virtual void drawBK();
+    virtual void resizeEvent(QResizeEvent* event);
+    virtual void calAtomGridHeight();
+    virtual void calAtomGridWidth();
+    virtual void paintEvent(QPaintEvent* event);
     void drawGrid();
     void drawHorLine();
     void drawVerLine();

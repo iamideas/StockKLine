@@ -12,9 +12,6 @@ MainWindow::MainWindow(QWidget *parent) :
 {   
     ui->setupUi(this);
 
-
-
-
     pgrid = new kVolumeGrid(this);
     pgrid->setObjectName(tr("kline"));
     pgrid->setFocusPolicy(Qt::StrongFocus);
@@ -39,10 +36,6 @@ MainWindow::MainWindow(QWidget *parent) :
 
 
     resize(1200,800);
-
-
-
-
 }
 
 MainWindow::~MainWindow()
